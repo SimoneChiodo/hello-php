@@ -11,6 +11,10 @@
   $puntatoreEta = &$eta; // Questo modifica il valore di $eta
   $puntatoreEta = 19;
 
+  // Usare una variabile per scegliere una variabile
+  $italiano = 'Ciao';
+  $inglese = 'Hi';
+  $lingua = 'italiano';
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +28,8 @@
     <!-- Usare una costante -->
     <h1>
       <?php
-        echo "Ciao " . NOME_UTENTE . '!';
+        // Il valore di $lingua viene letto e usato per scegliere la variabile $italiano o $inglese
+        echo $$lingua . ' ' . NOME_UTENTE . '!';
       ?>
     </h1>
 
