@@ -5,7 +5,7 @@
     $x = 100;
     $y = 100;
 
-    $x++; // Questa non aumenta a ogni ciclo, perché il suo valore viene sovrascritto a inizio funzione
+    $x++; // Questa non aumenta a ogni chiamata, perché il suo valore viene sovrascritto a inizio funzione
 
     return $var = 20;
   }
