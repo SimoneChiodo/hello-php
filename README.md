@@ -6,3 +6,4 @@ Questo perché PHP è un codice Server-Side, che quindi viene elaborato sul Serv
 
 Per aprire una pagina sul browser bisogna cercare `http://localhost:8000/nome_file.php`.  
 Per cercare solo `http://localhost:8000` bisogna avere un file `index.php` e, se si volessero avere più pagine, implementare il routing.
+
